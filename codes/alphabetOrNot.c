@@ -1,12 +1,11 @@
 #include<stdio.h>
 int main(){
     char c;
-    int lowercase_vowel,uppercase_vowel;
-    printf("enter an alphabet:");
+     printf("enter an alphabet:");
     scanf("%c",&c);
     //identify if entered character is alphabet or not
 if((c>='a'&&c<='z'|| c>='A'&&c<='Z'))
  printf("%c is an alphabet",c);
- else 
+ else  
  printf("%c is not an alphabet",c);
 }
